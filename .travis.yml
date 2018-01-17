@@ -11,6 +11,5 @@ notifications:
   email: false
 before_install:
   - gem install bundler
-  - brew update
-  - bundle install && brew bundle
+  - bundle install
 script: bundle exec fastlane test
