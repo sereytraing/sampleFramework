@@ -1,0 +1,7 @@
+lane :test do
+  scan(
+    code_coverage: true,
+    open_report: true
+  )
+
+end
